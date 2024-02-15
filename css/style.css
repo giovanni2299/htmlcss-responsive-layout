@@ -1,3 +1,4 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -15,4 +16,47 @@ img{
 a{
     text-decoration: none;
     color: currentColor;
+}
+/* END RESET */
+
+/* UTITLITIES */
+.flex{
+    display: flex;
+}
+.ml-auto{
+    margin-left: auto;
+}
+.aling-center{
+    align-items: center;
+}
+.display-none{
+    display: none;
+}
+/* END UTILITIES */
+
+/* LAYOUT */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* END LAYOUT */
+
+/*  HEADER */
+header{
+    background-color: #0084FD;
+    height: 90px;
+    padding: 20px 0 ;
+    color: white;
+}
+.ul-col6{
+    gap: 10px;
+}
+
+.ul-col6>*{
+    padding: 10px;
 }

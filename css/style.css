@@ -37,6 +37,7 @@ a{
 }
 
 .button{
+    text-align: center;
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -92,16 +93,56 @@ header{
     padding: 10px;
 }
 /* END HEADER */
+/* MAIN */
+/* FIRST-SECTION */
+.card{
+    background-color: #B5DDFF;
+    border-radius: 10px;
+}
 
-/* RESPONSIVE PART (DECKSTOP FIRST) */
-/* HEADER RESPONISIVE PART */
+.card__header{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.card__body img{
+    display: block;
+}
+
+.button.btn-blue{
+    color: white;
+    padding: 10px;
+    background-color: #0084FD;
+}
+/* END FIRST-SECTION */
+/* END MAIN */
+
+/* RESPONSIVE PART (MOBILE FIRST) */
+/* HEADER RESPONISIVE PART (MOBILE)*/
 @media (min-width: 768px) {
+    /* HEADER */
     .flex-md {
         display: flex;
     }
     .display-none-md {
         display: none;
     }
+    /* END HEADER */
+
+    /* MAIN */
+    /* FIRST-SECTION */
+   
+    /* END FISRT-SECTION */
 }
-/* END HEADER RESPONISIVE PART */
+/* END HEADER RESPONISIVE PART (MOBILE) */
+/* RESPONSIVE (TABLET) */
+@media (min-width:810px){
+    .card{
+        display: flex;
+    }
+}
+/* RESPONSIVE (DECKSTOP) */
 

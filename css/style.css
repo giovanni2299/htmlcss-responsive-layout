@@ -42,6 +42,10 @@ a{
     color: black;
     border-radius: 20px;
 }
+
+.font-size{
+    font-size: 60px;
+}
 /* END UTILITIES */
 
 /* LAYOUT */
@@ -100,12 +104,34 @@ header{
     border-radius: 10px;
 }
 
+.card-sm{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-sm>*{
+    margin-bottom:10px;
+}
+
+.card-sm :first-child{
+    color: #0084FD;
+}
+
 .card__header{
     padding: 10px;
     display: flex;
     flex-direction: column;
+    gap:10px;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.card__title{
+    color: #0084FD;
+}
+
+.card__description{
+    font-size: 12px;
 }
 
 .card__body img{
@@ -117,6 +143,8 @@ header{
     padding: 10px;
     background-color: #0084FD;
 }
+
+
 /* END FIRST-SECTION */
 /* END MAIN */
 
@@ -140,8 +168,20 @@ header{
 /* END HEADER RESPONISIVE PART (MOBILE) */
 /* RESPONSIVE (TABLET) */
 @media (min-width:810px){
-    .card{
+    .card.card-big{
         display: flex;
+        height: 100%;
+    }
+    .card__body img{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .col.col8-md{
+        width: calc(8 * 100% / 12);
+    }
+    
+    .col.col4-md{
+        width: calc(4 * 100% / 12);
     }
 }
 /* RESPONSIVE (DECKSTOP) */

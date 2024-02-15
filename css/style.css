@@ -60,3 +60,20 @@ header{
 .ul-col6>*{
     padding: 10px;
 }
+
+.display-none i{
+    padding: 10px;
+}
+/* END HEADER */
+
+/* RESPONSIVE PART (DECKSTOP FIRST) */
+/* HEADER RESPONISIVE PART */
+@media (max-width:900px){
+    .col6.flex.ml-auto .flex.ul-col6{
+        display: none;
+    }
+    .col6.flex.ml-auto>.display-none{
+        display: block;
+    }
+}
+/* END HEADER RESPONISIVE PART */

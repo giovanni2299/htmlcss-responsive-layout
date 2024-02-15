@@ -33,7 +33,7 @@ a{
     display: none;
 }
 .padding{
-    padding: 20px;
+    padding: 50px;
 }
 
 .button{
@@ -133,10 +133,12 @@ main .row{
 
 .card__title{
     color: #0084FD;
+    width: 250px;
 }
 
 .card__description{
     font-size: 12px;
+    width: 250px;
 }
 
 .card__body{
@@ -145,6 +147,7 @@ main .row{
 
 .card__body__img{
     width: 230px;
+    margin: 0 auto;
 }
 
 .card__body img{
@@ -156,9 +159,13 @@ main .row{
     padding: 10px;
     background-color: #0084FD;
 }
-
-
 /* END FIRST-SECTION */
+/* SECOND-SECTION */
+.bg-lilla{
+    background-color: #9792E4;
+    color: white;
+}
+/* END SECOND-SECTION */
 /* END MAIN */
 
 /* RESPONSIVE PART (MOBILE FIRST) */

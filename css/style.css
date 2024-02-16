@@ -374,6 +374,7 @@ main .row{
 
 .free-text{
     line-height: 32px;
+    margin-bottom: 20px;
 }
 
 .button.btn-white-special{
@@ -388,13 +389,27 @@ main .row{
 }
 
 .copyright-text{
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
 /* END SIX PART MAIN */
 /* END MAIN */
 
+/* FOOTER */
+.bg-black{
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+.footer-text{
+    margin-bottom: 20px;
+}
+
+.purple{
+    color: #9792E4;
+}
+/* END FOOTER */
 /* RESPONSIVE PART (MOBILE FIRST) */
 /* HEADER RESPONISIVE PART (MOBILE)*/
 @media (min-width: 768px) {

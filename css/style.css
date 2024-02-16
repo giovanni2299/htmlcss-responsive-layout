@@ -75,6 +75,10 @@ a{
 .col4{
     width: calc(4 * 100% / 12);
 }
+
+.col6{
+    width: calc(6 * 100% / 12);
+}
 /* END LAYOUT */
 
 /*  HEADER */
@@ -295,7 +299,19 @@ main .row{
 }
 /* END FOURTH-SECTION */
 /* FIFTH PART */
+.padding-40-20{
+    padding: 40px 20px;
+}
 
+.about-us-title{
+    color: #9792E4;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.top-description{
+    margin-bottom: 20px;
+}
 /* END FIFTH PART */
 /* END MAIN */
 

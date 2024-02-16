@@ -219,7 +219,49 @@ main .row{
 }
 /* END SECOND-SECTION */
 /* THIRD SECTION MAIN  */
-.
+.testimonial-container{
+    text-align: center;
+}
+
+.testimonial-container>*{
+    margin-bottom: 20px;
+}
+
+.testimonial__title{
+    color: #9792E4;
+}
+.testimonial-description{
+    line-height: 30px;
+}
+
+.card-lilla{
+    text-align: center;
+    background-color: #9792E4;
+    color: white ;
+}
+
+.card-img-part{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.testimonial-photo{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card-p-part{
+    margin-left: 20px;
+}
+
+.card-p-part p{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
 /* END THIRD SECTION MAIN */
 /* END MAIN */
 
@@ -230,16 +272,25 @@ main .row{
     .flex-md {
         display: flex;
     }
-    .display-none-md {
-        display: none;
-    }
+    
     /* END HEADER */
 
     /* MAIN */
-    /* FIRST-SECTION */
-   
-    /* END FISRT-SECTION */
+    /* THIRD-SECTION*/
+    .card-lilla{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+    .card-img-part{
+        padding: 0;
+    }
+    .cit{
+        width: 550px;
+    }
 }
+    /* THIRD-SECTION */
+
 /* END HEADER RESPONISIVE PART (MOBILE) */
 /* RESPONSIVE (TABLET) */
 @media (min-width:810px){
@@ -289,6 +340,14 @@ main .row{
 }
 /* RESPONSIVE (DECKSTOP) */
 @media (min-width:1100px){
+    /* HEADER */
+    .display-none-lg {
+        display: none;
+    }
+    .flex-lg{
+        display: flex;
+    }
+    /* HEADER */
     .card.card-big{
         display: flex;
         height: 100%;
@@ -303,4 +362,5 @@ main .row{
     .col6-md{
         width: calc(6 * 100% / 12 - 10px);
     }
-}
+    /* TIRTH PART SECTION */
+    

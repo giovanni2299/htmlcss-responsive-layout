@@ -488,6 +488,12 @@ main .row{
     .col6-md{
         width: calc(6 * 100% / 12 - 10px);
     }
+    .col70-md{
+        width: 60%;
+    }
+    .col30-md{
+        width: 30%;
+    }
     /* FIFTH PART SECTION */
     .img-title-us{
         width: 250px;
@@ -517,6 +523,12 @@ main .row{
     /* SECOND SECTION MAIN */
     .col4-md{
         width: calc(4 * 100% / 12 - 10px);
+    }
+    .col70-md{
+        width: 60%;
+    }
+    .col30-md{
+        width: 30%;
     }
     /* TIRTH PART SECTION */
 

@@ -358,6 +358,41 @@ main .row{
 }
 
 /* END FIFTH PART */
+/* SIX PART MAIN */
+.row-column{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.free-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FDC15F;
+    font-size: 40px;
+}
+
+.free-text{
+    line-height: 32px;
+}
+
+.button.btn-white-special{
+    width: 200px;
+    color: #9792E4;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.a-alone{
+    text-decoration: underline;
+}
+
+.copyright-text{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* END SIX PART MAIN */
 /* END MAIN */
 
 /* RESPONSIVE PART (MOBILE FIRST) */

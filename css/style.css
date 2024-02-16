@@ -264,6 +264,10 @@ main .row{
 
 /* END THIRD SECTION MAIN */
 /* FOURTH-SECTION */
+.benefits-title{
+    text-align: center;
+    font-size: 30px;
+}
 .card-white{
     background-color: white;
     color: #9792E4;
@@ -290,6 +294,9 @@ main .row{
     padding: 10px 15px;
 }
 /* END FOURTH-SECTION */
+/* FIFTH PART */
+
+/* END FIFTH PART */
 /* END MAIN */
 
 /* RESPONSIVE PART (MOBILE FIRST) */

@@ -33,7 +33,7 @@ a{
     display: none;
 }
 .padding{
-    padding: 50px;
+    padding: 50px 20px;
 }
 
 .button{
@@ -50,18 +50,22 @@ a{
 
 /* LAYOUT */
 .container{
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .container-sm{
-    max-width: 950px;
+    max-width: 880px;
     margin: 0 auto;
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.col12{
+    width: 100%;
 }
 
 .col8{
@@ -122,12 +126,11 @@ main .row{
 }
 
 .card__header{
-    width: calc(6 * 100% / 12);
+    width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap:10px;
-    justify-content: space-around;
+    gap: 15px;
     align-items: flex-start;
 }
 
@@ -195,6 +198,11 @@ main .row{
 }
 
 .purple-circle{
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 26px;
+    margin: 0 auto;
     background-color: #9792E4;
     border-radius: 50%;
     padding: 10px;
@@ -224,7 +232,7 @@ main .row{
 @media (min-width:810px){
     /* FIRST SECTION MAIN */
     .padding{
-        padding: 100px;
+        padding: 100px 24px;
     }
     .card.card-big{
         display: flex;
@@ -238,14 +246,14 @@ main .row{
         width: 100%;
     }
     .card__body img{
-        width: 70%;
+        width: 230px;
         margin: 0 auto;
     }
-    .col.col8-md{
+    .col8-md{
         width: calc(8 * 100% / 12 - 10px);
     }
     
-    .col.col4-md{
+    .col4-md{
         width: calc(4 * 100% / 12 - 10px);
     }
     .col4-md .card__title{

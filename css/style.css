@@ -294,6 +294,7 @@ main .row{
 }
 
 .button.btn-lilla{
+    color: white;
     background-color: #9792E4;
     padding: 10px 15px;
 }
@@ -311,7 +312,51 @@ main .row{
 
 .top-description{
     margin-bottom: 20px;
+    line-height: 35px;
 }
+
+.bottom-description{
+    line-height: 35px;
+}
+
+.img-about-us{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.img-title-us{
+    color: #9792E4;
+    line-height: 42px;
+    font-size: 30px;
+}
+
+.position{
+    position: relative;
+}
+
+#quote-img{
+    font-size: 50px;
+    color: #9792E4;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+
+.btn-size{
+    width: 200px;
+}
+
+.gutter>*{
+    margin-bottom: 20px;
+}
+
+.gutter :last-child{
+    margin-bottom: 0;
+}
+
 /* END FIFTH PART */
 /* END MAIN */
 
@@ -383,6 +428,7 @@ main .row{
         line-height: 24px;
     }
     /* END FIRST SECTION MAIN */
+
     /* SECON SECTION MAIN */
     .col__description{
         font-size: 16px;
@@ -392,6 +438,11 @@ main .row{
     .col6-md{
         width: calc(6 * 100% / 12 - 10px);
     }
+    /* FIFTH PART SECTION */
+    .img-title-us{
+        width: 250px;
+    }
+    /* END FIFTH PART SECTION */
 }
 /* RESPONSIVE (DECKSTOP) */
 @media (min-width:1100px){
@@ -418,4 +469,10 @@ main .row{
         width: calc(4 * 100% / 12 - 10px);
     }
     /* TIRTH PART SECTION */
+
+    /* FIFTH PART SECTION */
+    .img-title-us{
+        width: 250px;
+    }
+    /* END FIFTH PART SECTION */
 }   

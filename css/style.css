@@ -178,9 +178,13 @@ main .row{
 .container-sm .col>*{
     margin-bottom: 20px;
 }
+.cta>*{
+    margin-bottom: 20px;
+}
+
 .col__description{
     font-size: 12px;
-    width: 300px;
+    line-height: 24px;
 }
 
 .card.card__white{
@@ -200,6 +204,7 @@ main .row{
 
 .col__description__white{
     font-size: 12px;
+    line-height: 24px;
 }
 
 .purple-circle{
@@ -273,8 +278,9 @@ main .row{
     }
     /* END FIRST SECTION MAIN */
     /* SECON SECTION MAIN */
-    .col6-md{
-        width: calc(6 * 100% / 12 - 10px);
+    .col__description{
+        font-size: 16px;
+        line-height: 20px;
     }
     /* END SECOND SECTION MAIN */
 }
@@ -288,5 +294,10 @@ main .row{
     .card__body.card__body__img{
         display: flex;
         align-items: flex-end;
+    }
+    /* FIRST SECTION MAIN */
+    /* SECOND SECTION MAIN */
+    .col6-md{
+        width: calc(6 * 100% / 12 - 10px);
     }
 }

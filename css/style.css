@@ -114,15 +114,19 @@ main .row{
 .card-sm{
     height: 100%;
     text-align: center;
-    padding: 10px;
+    padding:30px 10px;
 }
 
 .card-sm>*{
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
 .card-sm :first-child{
     color: #0084FD;
+}
+
+.card-sm :last-child{
+    margin-bottom: 0;
 }
 
 .card__header{
@@ -136,12 +140,15 @@ main .row{
 
 .card__title{
     color: #0084FD;
-    width: 250px;
+}
+
+.card__description__big{
+    line-height: 30px;
 }
 
 .card__description{
-    font-size: 12px;
-    width: 250px;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .card__body{
@@ -182,8 +189,6 @@ main .row{
     text-align: center;
     padding: 20px;
 }
-
-
 
 .card.card__white>*{
     margin-bottom: 20px;
@@ -237,6 +242,7 @@ main .row{
     .card.card-big{
         display: flex;
         height: 100%;
+        flex-wrap: wrap;
     }
 
     .card__header h2{
@@ -245,9 +251,9 @@ main .row{
     .card__header p{
         width: 100%;
     }
-    .card__body img{
+    .card__body__img{
         width: 230px;
-        margin: 0 auto;
+        margin-left: 0;
     }
     .col8-md{
         width: calc(8 * 100% / 12 - 10px);
@@ -258,16 +264,29 @@ main .row{
     }
     .col4-md .card__title{
         width: 100%;
+        font-size: 25px;
     }
     .col4-md .card__description{
         width: 100%;
+        font-size: 16px;
+        line-height: 24px;
     }
     /* END FIRST SECTION MAIN */
     /* SECON SECTION MAIN */
-    .col.col6-md{
+    .col6-md{
         width: calc(6 * 100% / 12 - 10px);
     }
     /* END SECOND SECTION MAIN */
 }
 /* RESPONSIVE (DECKSTOP) */
-
+@media (min-width:1100px){
+    .card.card-big{
+        display: flex;
+        height: 100%;
+        flex-wrap: nowrap;
+    }
+    .card__body.card__body__img{
+        display: flex;
+        align-items: flex-end;
+    }
+}
